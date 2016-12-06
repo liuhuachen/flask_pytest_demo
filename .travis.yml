@@ -7,6 +7,9 @@ install:
 # command to run tests
 script:
     - make test
+#notifications
 notifications:
-  webhooks: https://oapi.dingtalk.com/robot/send?access_token=a20d75725bc277d5d6ff41069736bc55314b4d2d3f985e521ec4a481e786552b
+  webhooks:
+    url:
+      － https://oapi.dingtalk.com/robot/send?access_token=a20d75725bc277d5d6ff41069736bc55314b4d2d3f985e521ec4a481e786552b
     on_success: always
