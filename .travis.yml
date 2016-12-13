@@ -9,7 +9,10 @@ script:
     - make test
 #notifications
 notifications:
-  webhooks: https://oapi.dingtalk.com/robot/send?access_token=96ea555dfa209291bf11ba8ce5f3e05b0a0ab70549452c7a64150370c68269bf
+  webhooks: 
+    - https://oapi.dingtalk.com/robot/send?access_token=96ea555dfa209291bf11ba8ce5f3e05b0a0ab70549452c7a64150370c68269bf
+    - https://oapi.dingtalk.com/robot/send?access_token=f8d1e4ee2ef43834dbaa3079690e3e0ae3c5a57267dfa2e0b05efd9f709d2e59
+
     #url:
     # － https://oapi.dingtalk.com/robot/send?access_token=96ea555dfa209291bf11ba8ce5f3e05b0a0ab70549452c7a64150370c68269bf
     #on_success: always
